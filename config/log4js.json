@@ -1,0 +1,11 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "logs/service",
+      "pattern": "-yyyy-MM-dd.log",
+      "maxLogSize": 20480,
+      "alwaysIncludePattern": true
+    }
+  ]
+}
